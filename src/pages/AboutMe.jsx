@@ -1,8 +1,16 @@
-import React from 'react'
-import '../App.css'
+import React from 'react';
+import Profile from '../assets/Profile.jpg'; // Ensure this image path is correct
+import '../App.css';
 
-export default function AboutMe() {
+const AboutMe = React.forwardRef((props, ref) => {
   return (
-    <div className='about-me'>AboutMe</div>
-  )
-}
+    <div className="about-me-cont" ref={ref}>
+      <img src={Profile} className="prof-img" alt="Profile" />
+      <div>
+        <p>Description here</p>
+      </div>
+    </div>
+  );
+});
+
+export default AboutMe;

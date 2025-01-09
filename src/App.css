@@ -1,3 +1,137 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 .f-style-2 {
     font-family: 'Courier New', Courier, monospace;
+  }
+  
+.header-wrapper {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hiding/showing */
+  }
+.navbar {
+    width: 100%;
+  }
+.header-wrapper.visible {
+    transform: translateY(0);  /* Header is visible */
+  }
+  
+.header-wrapper.hidden {
+    transform: translateY(-100%);  /* Header is hidden */
+  }
+
+.home-pic { 
+    width: 100%;
+    filter: brightness(70%);
+}
+.pic-home {
+    position: relative;
+}
+.text-btn-home {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 600px;
+}
+.text-btn-home > p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight:600;
+}
+.home-btn {
+    background-color: #cd4c1d;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    transition: 0.6s;
+    font-weight: 900;
+}
+
+.home-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+@media (min-width: 768px) {
+    .home-pic {
+        height: 800px;
+        object-fit:cover;
+    }
+    .text-btn-home {
+        top: 35%;
+        left: 10%;
+        max-width: 600px;
+    }
+
+}
+
+.carousel-container {
+    width: 100%;
+    padding: 10px;
+}
+.car-pic {
+    height: 40vh;
+    object-fit:cover;
+}
+.car-cont {
+    padding: 2rem;
+    background-color: rgb(235, 229, 229);
+    display: grid;
+    grid-template-columns: 1fr; /* Default: single column */
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) { /*768 pababa*/
+    .car-cont {
+        grid-template-columns: 1fr 1fr; /* Default: single column */
+    }
+    
+}
+
+.fib-cont {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.card-v2-img {
+    height: 40vh;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) { /*768 pababa*/
+    .fib-cont {
+        grid-template-columns: 1fr 1fr; /* Default: single column */
+    }
+    
+}
+
+.about-me-cont {
+    padding: 7vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.prof-img {
+    border-radius: 50%;
+    width: 40vh;
+    padding: 10px;
+}
+
+@media (min-width: 768px) { 
+    .about-me-cont {
+        grid-template-columns: 1fr 3fr; 
+        text-align: start;
+    }
+    
 }
