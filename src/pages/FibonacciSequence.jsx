@@ -50,16 +50,19 @@ export default function FibonacciSequence() {
   
 
   return (
-    <div className='fib-cont'>
-      {items.map((item) => (
-        <CardV2 
-        img = {item.img}
-        alt = {item.alt}
-        dest = {item.destination}
-        desc = {item.description}
-        date = {item.date}
-        />
-      ))}
+    <div>
+      <h1>Fibonacci Sequence</h1>
+      <div className='fib-cont'>
+        {items.map((item) => (
+          <CardV2 
+          img = {item.img}
+          alt = {item.alt}
+          dest = {item.destination}
+          desc = {item.description}
+          date = {item.date}
+          />
+        ))}
+      </div>
     </div>
   )
 }

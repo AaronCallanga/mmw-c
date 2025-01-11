@@ -63,10 +63,8 @@ export default function Header({ scrollToSection, aboutMeRef }) {
                     Portfolio Entries
                   </a>
                   <ul className="dropdown-menu p-0 m-0" aria-labelledby="navbarDropdown">
-                    <li><Link className="dropdown-item px-5 text-center" to="patterns/symmetry">Symmetry</Link></li>
                     <li><Link className="dropdown-item px-5 text-center" to="patterns/tesselations">Tesselations</Link></li>
                     <li><Link className="dropdown-item px-5 text-center" to="patterns/symmetry">Symmetry</Link></li>
-                    <li><Link className="dropdown-item px-5 text-center" to="patterns/tesselations">Tesselations</Link></li>
                     <li><Link className="dropdown-item px-5 text-center" to="patterns/fractals">Fractals</Link></li>
                     <li><Link className="dropdown-item px-5 text-center" to="patterns/fibonacci-sequence">Fibonacci Sequence</Link></li>
                     <li><Link className="dropdown-item px-5 text-center" to="patterns/frieze">Frieze</Link></li>

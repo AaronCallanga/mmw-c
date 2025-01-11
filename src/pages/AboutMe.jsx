@@ -7,7 +7,11 @@ const AboutMe = React.forwardRef((props, ref) => {
     <div className="about-me-cont" ref={ref}>
       <img src={Profile} className="prof-img" alt="Profile" />
       <div>
-        <p>Description here</p>
+        <p>Aaron Dave D. Callanga</p>
+        <p>BSCS 1-1</p>
+        <p>GEED 004 1ST2425</p>
+        <p>This website is my E-Portfolio namely Beyond The Walls for our performance task requirement</p>
+        <p>January 2025</p>
       </div>
     </div>
   );

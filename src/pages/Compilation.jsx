@@ -50,15 +50,18 @@ export default function Compilation() {
 
   return (
     <div>
-      {items.map((item) => (
-        <Card 
-        img = {item.img}
-        alt = {item.alt}
-        destination = {item.destination}
-        description = {item.description}
-        date = {item.date}
-        />
-      ))}
+      <h1>Compilation</h1>
+      <div className='comp-cont'>
+        {items.map((item) => (
+          <Card 
+          img = {item.img}
+          alt = {item.alt}
+          destination = {item.destination}
+          description = {item.description}
+          date = {item.date}
+          />
+        ))}
+      </div>
     </div>
   )
 }
