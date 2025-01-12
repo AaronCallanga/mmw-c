@@ -50,11 +50,12 @@ export default function Tesselations() {
   
 
   return (
-    <div>
-      <h1>Tesselations</h1>
+    <div className='port-entry port-bg-lin'>
+      <h1 className='text-center home-h2'>Tesselations</h1>
       <div className='fib-cont'>
-        {items.map((item) => (
+        {items.map((item, index) => (
           <CardV2 
+          key = {index}
           img = {item.img}
           alt = {item.alt}
           dest = {item.destination}

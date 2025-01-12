@@ -49,11 +49,12 @@ export default function Compilation() {
   
 
   return (
-    <div>
-      <h1>Compilation</h1>
+    <div className='port-entry port-bg-com'>
+      <h1 className='text-center home-h2'>Compilation</h1>
       <div className='comp-cont'>
-        {items.map((item) => (
+        {items.map((item, index) => (
           <Card 
+          key = {index}
           img = {item.img}
           alt = {item.alt}
           destination = {item.destination}

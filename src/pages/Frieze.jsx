@@ -50,11 +50,12 @@ export default function Frieze() {
   
 
   return (
-    <div>
-      <h1>Frieze</h1>
+    <div className='port-entry port-bg-warm'>
+      <h1 className='text-center home-h2'>Frieze</h1>
       <div className='fib-cont'>
-        {items.map((item) => (
+        {items.map((item, index) => (
           <CardV2 
+          key = {index}
           img = {item.img}
           alt = {item.alt}
           dest = {item.destination}
