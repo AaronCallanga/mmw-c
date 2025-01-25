@@ -1,5 +1,9 @@
 import React from 'react'
-import Pattern from '../assets/Pattern.jpg'
+import r1 from '../assets/r1.jpg'
+import r2 from '../assets/r2.png'
+import r3 from '../assets/r3.jpg'
+import r4 from '../assets/r4.jpg'
+import r5 from '../assets/r5.png'
 import CardV2 from '../components/CardV2'
 
 export default function Rosette() {
@@ -7,39 +11,39 @@ export default function Rosette() {
   const items = [
     {
       key: 1,
-      img: Pattern,
+      img: r1,
       alt: "pattern",
       destination: "Quezon City",
       description: "example description",
       date: "January 30, 2025"
     }, 
     {
-      key: 1,
-      img: Pattern,
+      key: 2,
+      img: r2,
       alt: "pattern",
       destination: "Quezon City",
       description: "example description",
       date: "January 30, 2025"
     }, 
     {
-      key: 1,
-      img: Pattern,
+      key: 3,
+      img: r3,
       alt: "pattern",
       destination: "Quezon City",
       description: "example description",
       date: "January 30, 2025"
     },
     {
-      key: 1,
-      img: Pattern,
+      key: 4,
+      img: r4,
       alt: "pattern",
       destination: "Quezon City",
       description: "example description",
       date: "January 30, 2025"
     },
     {
-      key: 1,
-      img: Pattern,
+      key: 5,
+      img: r5,
       alt: "pattern",
       destination: "Quezon City",
       description: "example description",

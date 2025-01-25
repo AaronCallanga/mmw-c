@@ -1,6 +1,6 @@
 import React from 'react'
 import Pattern from '../assets/Pattern.jpg'
-import Fractals from '../assets/Fractals-1.jpg'
+import homePic from '../assets/fs4.jpg'
 import Pattern2 from '../assets/Pattern2.avif'
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <img className="pic-home home-pic"src={Fractals}/>
+        <img className="pic-home home-pic"src={homePic}/>
       </div>
       <div className='home-page'>
         <div className='text-btn-home'>

@@ -142,8 +142,8 @@ html {
     gap: 20px;
 }
 .card-v2-img {
-    height: 40vh;
-    object-fit: cover;
+    height: 50vh;
+    object-fit:cover;
 }
 
 @media (min-width: 768px) { /*768 pababa*/

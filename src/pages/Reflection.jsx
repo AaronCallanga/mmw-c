@@ -1,9 +1,7 @@
 import React from 'react'
 
 export default function Reflection() {
-  // Include a reflection section where you discuss how these patterns are 
-  // interconnected and how mathematics plays a 
-  // role in shaping both the natural and human-made world.   
+
   return (
     <div className='ref-cont'>
       <h1 className="text text-center">REFLECTION</h1>
