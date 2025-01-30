@@ -13,41 +13,41 @@ export default function Fractals() {
       key: 1,
       img: f1,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "School Laboratory",
+      description: "The leaves and the branching pattern of the plants represents fractals pattern",
+      date: "Feb 13, 2024"
     }, 
     {
       key: 2,
       img: f2,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Terrace",
+      description: "The cloud is one of the most common examples of fractals because of its formation",
+      date: "January 25, 2025"
     }, 
     {
       key: 3,
       img: f3,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Malunggay leaves represents fractals because of how the branches shrinks continously",
+      date: "January 25, 2025"
     },
     {
       key: 4,
       img: f4,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "The leaves of the plant shrinks like the malunggay leaves and forms fractals",
+      date: "January 25, 2025"
     },
     {
       key: 5,
       img: f5,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "The indefinite surface of the stone forms fractals pattern because it looks the same even in different scale",
+      date: "January 11, 2025"
     }
   ]
     

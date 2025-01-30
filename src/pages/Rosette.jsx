@@ -13,41 +13,41 @@ export default function Rosette() {
       key: 1,
       img: r1,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "The lamp forms a rosette pattern because of its symmetrical translation",
+      date: "January 26 2025"
     }, 
     {
       key: 2,
       img: r2,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Clocks are one of the most frequent examples that shows the formation of rosette pattern",
+      date: "January 26, 2025"
     }, 
     {
       key: 3,
       img: r3,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "The rag forms translation symettry and is considered as a rosette pattern",
+      date: "January 26, 2025"
     },
     {
       key: 4,
       img: r4,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Flowers that has circular pattern or structure forms a rosette pattern",
+      date: "January 26, 2025"
     },
     {
       key: 5,
       img: r5,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Outside The House",
+      description: "The design in the tiles also forms rosette pattern because you can rotate it and still looks the same",
+      date: "January 11, 2025"
     }
   ]
     

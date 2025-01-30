@@ -1,7 +1,8 @@
 import React from 'react'
-import Pattern from '../assets/Pattern.jpg'
+import Pattern from '../assets/fr1.jpg'
 import homePic from '../assets/fs4.jpg'
-import Pattern2 from '../assets/Pattern2.avif'
+import Pattern2 from '../assets/s4.jpg'
+import Pattern3 from '../assets/f2.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -47,7 +48,7 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <img src={Pattern} className="d-block w-100 car-pic" alt="..." />
+              <img src={Pattern3} className="d-block w-100 car-pic" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>The Beauty of Order</h5>
                 <p>Experience the beauty of order in chaos, 

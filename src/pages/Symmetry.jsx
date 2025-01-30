@@ -13,41 +13,41 @@ export default function Symmetry() {
       key: 1,
       img: s1,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "School Laboratory",
+      description: "The petals around the center of the flower forms a symmetry",
+      date: "February 13, 2024"
     }, 
     {
       key: 2,
       img: s2,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Butterfly is one of the best example of symmetry because of its two wings, making each side the same",
+      date: "January 11, 2025"
     }, 
     {
       key: 3,
       img: s3,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Even fictional character like Jollibee also forms symettry because of its own face structure",
+      date: "January 25, 2025"
     },
     {
       key: 4,
       img: s4,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "The face of my beloved dog is considered as symettry because of the detail of its face like with Jollibee",
+      date: "January 25, 2025"
     },
     {
       key: 5,
       img: s5,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "An orange also forms symettry because of its circular shape",
+      date: "January 25, 2025"
     }
   ]
     

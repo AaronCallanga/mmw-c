@@ -1,5 +1,9 @@
 import React from 'react'
-import Pattern from '../assets/Pattern.jpg'
+import fr1 from '../assets/fr1.jpg'
+import fr2 from '../assets/fr2.jpg'
+import fr3 from '../assets/fr3.jpg'
+import fr4 from '../assets/fr4.jpg'
+import fr5 from '../assets/fr5.jpg'
 import CardV2 from '../components/CardV2'
 
 export default function Frieze() {
@@ -7,43 +11,43 @@ export default function Frieze() {
   const items = [
     {
       key: 1,
-      img: Pattern,
+      img: fr1,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
+      destination: "Within The House",
+      description: "The window grills in our house forms in one direction creating a frieze pattern",
+      date: "January 28, 2025"
+    }, 
+    {
+      key: 2,
+      img: fr2,
+      alt: "pattern",
+      destination: "Within The House",
+      description: "The carving in the chair also forms frieze because of its design that forms in one direction",
       date: "January 30, 2025"
     }, 
     {
-      key: 1,
-      img: Pattern,
+      key: 3,
+      img: fr3,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
-    }, 
-    {
-      key: 1,
-      img: Pattern,
-      alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
+      destination: "Within The House",
+      description: "Chains are also great example of frieze because it shows a one directional pattern",
       date: "January 30, 2025"
     },
     {
-      key: 1,
-      img: Pattern,
+      key: 4,
+      img: fr4,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
+      destination: "In The Yard",
+      description: "The trunk of the papaya tree grows upward forming frieze pattern",
       date: "January 30, 2025"
     },
     {
-      key: 1,
-      img: Pattern,
+      key: 5,
+      img: fr5,
       alt: "pattern",
-      destination: "Quezon City",
-      description: "example description",
-      date: "January 30, 2025"
+      destination: "Within The House",
+      description: "Commonly the design in table built with narra woods also forms the one direction pattern",
+      date: "January 11, 2025"
     }
   ]
     

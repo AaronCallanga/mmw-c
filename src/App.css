@@ -202,25 +202,27 @@ html {
 .comp-cont {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 25px;
     padding: 30px;
 }
-
 @media (min-width: 768px) { 
+    .comp-cont {
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media (min-width: 1100px) { 
     .comp-cont {
         grid-template-columns: 1fr 1fr;
     }
     
 }
-@media (min-width: 1300px) { 
+@media (min-width: 1550px) { 
     .comp-cont {
         grid-template-columns: 1fr 1fr 1fr;
     }
     
 }
-
-
-
 
 .Gallery-section {
     padding: 50px;
@@ -254,10 +256,14 @@ html {
 .Gallery-img-container > div:hover img {
     transform: scale(1.05);
 }
-.gal-1, .gal-10, .gal-7, .gal-16 {
+.gal-1, .gal-10, .gal-20, .gal-30, .gal-7, .gal-16, .gal-26, .gal-34 {
     grid-column: span 2 / auto ;
 }
-.gal-2, .gal-11, .gal-4, .gal-13, .gal-8, .gal-17 {
+.gal-2, .gal-11, .gal-21, .gal-4, .gal-13, .gal-23, .gal-8, .gal-17, .gal-27 {
+    grid-row: span 2 / auto;
+}
+.gal-32 {
+    grid-column: span 2 / auto;
     grid-row: span 2 / auto;
 }
 @media (max-width: 600px) {
@@ -387,3 +393,60 @@ html {
 .port-bg-com {
     background: linear-gradient(135deg, #F39C12, #5DADE2);
 }
+
+.card-v3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    padding: 0;
+  }
+  
+  .card-v3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-v3-content {
+    padding: 25px;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .card-v3-title {
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .card-v3-description {
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .card-v3-date {
+    padding: 5px;
+    font-size: 12px;
+    color: gray;
+  }
+  .img-v3-cont {
+    height: 100%;
+  }
+
+
+@media (min-width: 1100px) { 
+    .card-v3 {
+        display: flex;
+    }
+    .card-v3 img {
+        width: 200px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+}
+
