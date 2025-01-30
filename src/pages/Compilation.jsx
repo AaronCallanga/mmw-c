@@ -34,7 +34,6 @@ import wp2 from '../assets/wp2.jpg'
 import wp3 from '../assets/wp3.jpg'
 import wp4 from '../assets/wp4.jpg'
 import wp5 from '../assets/wp5.jpg'
-import Card from '../components/Card'
 import CardV3 from '../components/CardV3'
 
 export default function Compilation() {
@@ -339,6 +338,6 @@ export default function Compilation() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
